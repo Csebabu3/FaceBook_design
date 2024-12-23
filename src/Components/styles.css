@@ -1,0 +1,48 @@
+/* NewPoster.css */
+.container-fluid {
+  padding: 0;
+}
+
+.input-text {
+  width: 100%;
+  max-width: 30%;
+  margin-left: 280px;
+}
+
+@media (max-width: 768px) {
+  .input-text {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .arrow-icon {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .accordion {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .accordion.expanded {
+    bottom: 1px;
+    transform: translateY(-10%);
+  }
+
+  .accordion-row {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .input-text {
+    max-width: 90%;
+  }
+
+  .accordion {
+    width: 95%;
+  }
+}
